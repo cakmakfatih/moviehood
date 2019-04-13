@@ -33,7 +33,7 @@
                         About the program
                     </h3>
                     <li>
-                        This program searches and tries to stream any mp4 containing torrent file with automatic matched subtitles.
+                        This program searches and tries to stream any mp4 containing torrent file with automaticly fetched subtitles.
                     </li>
                     <li>
                         All of the source code is available at <a href="https://github.com/cakmakfatih/moviehood" target="_blank">here</a>.
