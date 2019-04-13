@@ -89,6 +89,7 @@ export default {
             this.$refs.player.innerHTML = "";
             this.mp4Files[index].appendTo(this.$refs.player);
             let vp = this.$refs.player.childNodes[0];
+            vp.autoplay = true;
             vp.style.flex = 1;
             vp.style.width = "100%";
             this.subtitles = await subtitles.search(this.mp4Files[index].name);
