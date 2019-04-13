@@ -29,7 +29,7 @@ export default {
     name: 'vue-settings',
     data: function() {
         return {
-            selectedSubtitle: localStorage.getItem("subLanguageId") || "tur",
+            selectedSubtitle: localStorage.getItem("subLanguageId") || "eng",
             subtitleOptions: [
                 {
                     name: "Turkish",
